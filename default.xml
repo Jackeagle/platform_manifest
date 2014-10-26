@@ -509,9 +509,9 @@
   <!-- MonthCalendarWidget -->
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="omni" revision="android-4.4" />
 
-<!------------------------------------------------------------Custom Trees ------------------------------------------------------------------------------------------------>
+<!-- Custom Trees -->
 
-<!--Hardware-->
+<!-- Hardware -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
