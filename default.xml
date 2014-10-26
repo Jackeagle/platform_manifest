@@ -509,4 +509,33 @@
   <!-- MonthCalendarWidget -->
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="omni" revision="android-4.4" />
 
+<!------------------------------------------------------------Custom Trees ------------------------------------------------------------------------------------------------>
+
+<!--Hardware-->
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+
+<!--Common Trees-->
+
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  
+<!--Devices-->
+
+  <project path="device/xiaomi/armani" name="Jackeagle/android_device_xiaomi_armani" remote="github" revision="aicp" />
+  <project path="device/xiaomi/cancro" name="Jackeagle/android_device_xiaomi_cancro" remote="github" revision="aicp" />
+  <project path="device/samsung/i9082" name="Jackeagle/android_device_samsung_i9082" remote="github" revision="aicp" />
+  <project path="device/google/sprout" name="Jackeagle/android_device_google_sprout" remote="github" revision="aicp" />
+
+<!--Kernels-->
+
+  <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/i9082" name="pawitp/android_kernel_samsung_i9082" remote="github" revision="cm-11.0" />
+
+  <!--Vendors-->
+  
+  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-11.0" />
+  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi_cancro" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+
 </manifest>
