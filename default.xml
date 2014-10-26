@@ -535,7 +535,6 @@
   <!--Vendors-->
   
   <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-11.0" />
-  <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi_cancro" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
 
 </manifest>
